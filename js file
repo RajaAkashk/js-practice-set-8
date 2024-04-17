@@ -1,0 +1,464 @@
+
+console.log("A1_Assignment");
+console.log("---- ---- ----");
+let next ="\n";
+console.log(next);
+
+let numberOfEvents=3;
+console.log("Total Numbers Of Events: ", "(",numberOfEvents,")");
+console.log("---- ---- ----");
+console.log(next);
+
+let eventOneTitle="Music Concert";
+let eventOneDate="August 15, 2023";
+let eventOneTime ="7:00 PM";
+let eventOneTicketsSold=150 ; 
+let eventOneTicketPrice= 2599 ; 
+console.log("Event one:");
+console.log("Type Of Event: ",eventOneTitle);
+console.log("Date: ",eventOneDate);
+console.log("Time: ",eventOneTime);
+console.log("Ticket Sold: ",eventOneTicketsSold);
+console.log("Ticket Price:",eventOneTicketPrice);
+
+console.log(next);
+
+let eventTwoTitle="Art Exhibition";
+let eventTwoDate="September 10, 2023";
+let eventTwoTime ="11:00 AM";
+let eventTwoTicketsSold=80 ; 
+let eventTwoTicketPrice= 159 ; 
+console.log("Event Two:");
+console.log("Tittle: ",eventTwoTitle);
+console.log("Date: ",eventTwoDate);
+console.log("Time: ",eventTwoTime);
+console.log("Ticket Sold: ",eventTwoTicketsSold);
+console.log("Ticket Price:",eventTwoTicketPrice);
+
+console.log(next);
+
+let eventThreeTitle="Sports Tournament";
+let eventThreeDate="October 5, 2023";
+let eventThreeTime ="2:30 PM";
+let eventThreeTicketsSold=200 ; 
+let eventThreeTicketPrice= 1299 ; 
+console.log("Event Three:");
+console.log("Tittle: ",eventThreeTitle);
+console.log("Date: ",eventThreeDate);
+console.log("Time: ",eventThreeTime);
+console.log("Ticket Sold: ",eventThreeTicketsSold);
+console.log("Ticket Price:",eventThreeTicketPrice);
+
+console.log("Lesson A1");
+console.log("A1_Exercise_2");
+let next ="\n";
+console.log(next);
+
+console.log("---- ---- ----");
+let totalItems=3;
+console.log("Inventory Details","(", totalItems ,")");
+console.log("---- ---- ----");
+console.log(next);
+
+// item one 
+let itemOneName="T-shirts";
+let itemOneQuantity =10;
+let itemOnePrice = 495.99;
+console.log("Item 1:");
+console.log("Name: ",itemOneName);
+console.log("Quantity: ",itemOneQuantity);
+console.log("Price: ",itemOnePrice);
+console.log(next);
+
+// item two
+let itemTwoName="Jeans";
+let itemTwoQuantity =5;
+let itemTwoPrice =  2995.99;
+console.log("Item 2:");
+console.log("Name: ",itemTwoName);
+console.log("Quantity: ",itemTwoQuantity);
+console.log("Price: ",itemTwoPrice);
+console.log(next);
+
+// item three
+let itemThreeName="Shoes";
+let itemThreeQuantity =8;
+let itemThreePrice = 1499.99;
+console.log("Item 2:");
+console.log("Name: ",itemThreeName);
+console.log("Quantity: ",itemThreeQuantity);
+console.log("Price: ",itemThreePrice);
+console.log(next);
+
+console.log("A2.1_HW_1");
+console.log("---- ---- ----");
+console.log("Exercise 1");
+
+let numOne=8;
+let numTwo=6;
+let numThree=16;
+
+console.log("---- ---- ----");
+console.log("1.1");
+let sum = numOne+numTwo;
+console.log("Numbers: ",numOne ,numTwo);
+console.log("Sum: ", sum);
+
+console.log("---- ---- ----");
+console.log("1.2");
+let difference  = numOne-numTwo;
+console.log("Numbers: ",numOne ,numTwo);
+console.log("Difference : ", difference );
+
+console.log("---- ---- ----");
+console.log("1.3");
+let product  = numOne*numTwo;
+console.log("Numbers: ",numOne ,numTwo);
+console.log("Product : ", product );
+
+console.log("---- ---- ----");
+console.log("1.4");
+let division  = numOne/numTwo;
+console.log("Numbers: ",numOne ,numTwo);
+console.log("Division : ", division );
+
+console.log("---- ---- ----");
+console.log("1.5");
+let modulo  = numOne%numTwo;
+console.log("Numbers: ",numOne ,numTwo);
+console.log("Modulo : ", modulo );
+
+console.log("---- ---- ----");
+console.log("Exercise 2");
+
+console.log("---- ---- ----");
+console.log("2.1");
+let sumAll = numOne+numTwo+numThree;
+console.log("Numbers: ",numOne ,numTwo,numThree);
+console.log("Sum of All: ", sumAll);
+
+console.log("---- ---- ----");
+console.log("2.2");
+let addAndSubtract =numThree- (numOne+numTwo);
+console.log("Numbers: ",numOne ,numTwo,numThree);
+console.log("Add And Subtract: ", addAndSubtract);
+
+console.log("---- ---- ----");
+console.log("2.3");
+let addAndMultiply =numThree+(numOne*numTwo);
+console.log("Numbers: ",numOne ,numTwo,numThree);
+console.log("Add And Multiply: ", addAndMultiply);
+
+console.log("---- ---- ----");
+console.log("2.4");
+let addAndDivide =(numThree/numOne)+numTwo;
+console.log("Numbers: ",numOne ,numTwo,numThree);
+console.log("Add And Divide: ", addAndDivide);
+
+console.log("---- ---- ----");
+console.log("2.5");
+let average =(numThree+numOne+numTwo)/3;
+console.log("Numbers: ",numOne ,numTwo,numThree);
+console.log("Average of All Numbers : ",average );
+
+console.log("A2.2_HW_1");
+console.log("---- ---- ----");
+console.log("Exercise 1");
+console.log("---- ---- ----");
+
+console.log("1.1");
+let akshayTime=10.75;
+let raviTime=10.92;
+let isAkshayFaster= akshayTime < raviTime;
+console.log("Is Akshay faster than Ravi in the 100m sprint?", isAkshayFaster);
+
+console.log("---- ---- ----");
+console.log("1.2");
+let akshayTime400=46.21;
+let raviTime400=47.05;
+let isAkshayFaster400= akshayTime400 < raviTime400;
+console.log("Is Akshay faster than Ravi in the 400m Race?", isAkshayFaster400);
+
+console.log("---- ---- ----");
+console.log("1.3");
+let akshayDistance=7.83;
+let raviDistance=7.68;
+let isAkshayLongerJump= akshayDistance > raviDistance;
+console.log("Did Akshay make a longer jump than Ravi?", isAkshayLongerJump);
+
+console.log("---- ---- ----");
+console.log("1.4");
+let akshayDistanceShotPut=19.75;
+let raviDistanceShotPut=18.92;
+let isAkshayLongerThrow= akshayDistanceShotPut > raviDistanceShotPut;
+console.log("Did Akshay make a longer throw than Ravi?",isAkshayLongerThrow );
+
+console.log("---- ---- ----");
+console.log("1.5");
+let akshayHeight=2.05;
+let raviHeight=1.98;
+let isAkshayHigherJump= akshayHeight >raviHeight;
+console.log("Did Akshay jump higher than Ravi? ",isAkshayHigherJump);
+
+console.log("Exercise 2");
+console.log("---- ---- ----");
+console.log("2.1");
+let milkPrice=199 ;
+let breadPrice=299;
+let budget=300;
+let areBothUnderBudget= budget > (milkPrice+breadPrice);
+console.log("Can I buy both Milk and Bread within my budget?", areBothUnderBudget);
+
+console.log("---- ---- ----");
+console.log("2.2");
+let gangaCricketClubScore=78;
+let yamunaCricketClubScore=63;
+let narmadaCricketClubScore=52;
+let godavariCricketClubScore=72;
+let minimumAverage=60;
+let averageScore= (gangaCricketClubScore+yamunaCricketClubScore+narmadaCricketClubScore+godavariCricketClubScore)/4;
+let isSelected=averageScore > minimumAverage;
+console.log("Am I selected for the cricket camp?",isSelected);
+
+console.log("---- ---- ----");
+console.log("2.3");
+let numberOfStudents=72;
+let isDivisibleBy4 = numberOfStudents % 4 ===0;
+let isDivisibleBy9 = numberOfStudents % 9 ===0;
+console.log("Can the students be divided into groups of 4?",isDivisibleBy4);
+console.log("Can the students be divided into groups of 9?",isDivisibleBy9);
+
+console.log("A2.2_HW_2");
+console.log("---- ---- ----");
+console.log("Exercise 1");
+console.log("---- ---- ----");
+console.log("1.1");
+let rajeshRating=8.2;
+let amitRating=7.9;
+let isRajeshHigherRated= rajeshRating > amitRating;
+console.log("Is Rajesh higher rated than Amit?", isRajeshHigherRated);
+
+console.log("---- ---- ----");
+console.log("1.2");
+let rajeshCollection =250;
+let amitCollection=350;
+let isRajeshHigherCollection= rajeshCollection > amitCollection;
+console.log("Does Rajesh have a higher superhit movie collection than Amit?",isRajeshHigherCollection);
+
+console.log("---- ---- ----");
+console.log("1.3");
+let rajeshIncome=50;
+let amitIncome=80;
+let isRajeshLessIncome= rajeshIncome < amitIncome;
+console.log("Does Rajesh have a lower yearly income than Amit?",isRajeshLessIncome);
+
+console.log("---- ---- ----");
+console.log("1.4");
+let rajeshAds=10;
+let amitAds=8;
+let isRajeshMoreAds=rajeshAds>amitAds;
+console.log("Has Rajesh done more ads than Amit?", isRajeshMoreAds);
+
+console.log("---- ---- ----");
+console.log("1.4");
+let rajeshFans= 2_000_000;
+let amitFans=3_500_000;
+let isRajeshMoreFans=rajeshFans>amitFans;
+console.log("Does Rajesh have more fans than Amit?", isRajeshMoreFans);
+
+console.log("---- ---- ----");
+console.log("Exercise 2");
+console.log("---- ---- ----");
+console.log("2.1");
+let tShirtPrice=799;
+let jeansPrice=599;
+let budget =1500;
+let areBothUnderBudget= budget >= (tShirtPrice+jeansPrice);
+console.log("Can I buy both a T-shirt and Jeans within my budget?",areBothUnderBudget);
+
+console.log("---- ---- ----");
+console.log("2.2");
+let mathScore=85;
+let englishScore=92;
+let physicsScore=78;
+let minimunAverage=85;
+let averageScore=(mathScore + englishScore + physicsScore)/3;
+let isQualified = averageScore >= minimunAverage;
+console.log("Am I qualified for the olympiad?",isQualified);
+
+console.log("---- ---- ----");
+console.log("2.3");
+let productQuantity =60;
+let isDivisibleBy5= productQuantity % 5 ===0;
+let isDivisibleBy10= productQuantity % 10 ===0;
+console.log("Can the product quantity be sold in batches of 5?",isDivisibleBy5);
+console.log("Can the product quantity be sold in batches of 10?",isDivisibleBy10);
+
+console.log("A2.3_HW_1");
+console.log("---- ---- ----");
+console.log("Exercise 1");
+console.log("---- ---- ----");
+console.log("1.1");
+let subject1Marks=85;
+let subject2Marks=92;
+let subject3Marks=78;
+let averageMarks= subject1Marks +subject2Marks + subject3Marks;
+let hasDramaSchoolEndorsement =true;
+let performance= averageMarks >= 80 || hasDramaSchoolEndorsement===true;
+console.log("Is the user selected?",performance);
+
+console.log("---- ---- ----");
+console.log("1.2");
+let foodBill =1500;
+let hasZomatoGoldMembership=true;
+let qualifiesForDiscountedBill= foodBill<2000 || hasZomatoGoldMembership===true;
+console.log("Does the user qualify to pay the food bill at a discounted price?",qualifiesForDiscountedBill);
+
+console.log("---- ---- ----");
+console.log("1.3");
+let piggybank1Balance=2000;
+let piggybank2Balance=1500;
+let penCost=50;
+let notebookCost =100;
+let pencilCost=20;
+let totalCost=penCost + notebookCost + pencilCost;
+
+let canWeAffordStationery = totalCost <=piggybank1Balance || totalCost <= piggybank2Balance;
+console.log("Can you afford the purchase? ", canWeAffordStationery);
+
+console.log("---- ---- ----");
+console.log("Exercise 2");
+console.log("---- ---- ----");
+console.log("2.1");
+let personAge =25;
+let isAgeInRange= personAge > 18 && personAge < 60;
+console.log("Is the person's age between 18 and 60?", isAgeInRange);
+
+console.log("---- ---- ----");
+console.log("Exercise 3");
+console.log("---- ---- ----");
+console.log("3.1");
+let tvScreenSize=55;
+let tvBrand ="Sony";
+let tvPrice=50000;
+let meetsCriteria= tvScreenSize >=50 && (tvBrand==="Sony" || tvBrand==="Samsung") && tvPrice <=60000;
+console.log("Does the TV meet the criteria? ",meetsCriteria);
+
+
+console.log("---- ---- ----");
+console.log("3.2");
+let watchReleaseYear=2021;
+let watchSize="L";
+let watchBrand="Apple";
+let isDiscountApplicable = watchReleaseYear < 2024 && (watchSize==="M" || watchSize==="L") && (watchBrand==="Apple" || watchBrand==="Samsung" );
+
+  console.log("Is the discount applicable?",isDiscountApplicable);
+
+
+console.log("A2.3_HW_2");
+console.log("---- ---- ----");
+console.log("Exercise 1");
+console.log("---- ---- ----");
+console.log("1.1");
+let runsMatch1=78;
+let runsMatch2=102;
+let runsMatch3=45;
+let totalRuns= runsMatch1 + runsMatch2 + runsMatch3;
+let battingAverage = totalRuns/3;
+let excellentFielding = true;
+let cricketerPerformance=
+  battingAverage>60 && excellentFielding===true;
+console.log("Is the cricketer selected?",cricketerPerformance );
+
+console.log("---- ---- ----");
+console.log("1.2");
+let gymMembership = true;
+let purchaseAmount=1500;
+let qualifiesForDiscountedPurchase=
+  gymMembership===true || purchaseAmount>1499;
+console.log("Does the user qualify to purchase the item at a discounted price? ",qualifiesForDiscountedPurchase);
+
+console.log("---- ---- ----");
+console.log("1.3");
+let iciciBalance=8000;
+let axisBalance=6000;
+let laptopCost=35000;
+let phoneCost=25000;
+let headphonesCost=3000;
+let totalCost= laptopCost + phoneCost + phoneCost;
+
+let canWeAffordElectronics = totalCost<=iciciBalance || totalCost<=axisBalance;
+
+console.log("Can you afford the purchase? ", canWeAffordElectronics);
+
+console.log("---- ---- ----");
+console.log("Exercise 2");
+console.log("---- ---- ----");
+console.log("2.1");
+let carSpeed =65;
+let isSpeedInRange= carSpeed>40 && carSpeed<80;
+console.log("Is the car's speed between 40 and 80? ",isSpeedInRange);
+
+console.log("---- ---- ----");
+console.log("Exercise 3");
+console.log("---- ---- ----");
+console.log("3.1");
+let phoneMemory=64;
+let phonePrice=25000;
+let phoneBrand="Oneplus";
+let meetsCriteria= phoneMemory >=128 && phoneCost<=35000 && (phoneBrand ==="Oneplus" || phoneBrand ==="Samsung");
+console.log("Does the phone meet the criteria? ",meetsCriteria);
+
+console.log("---- ---- ----");
+console.log("3.2");
+let remainingItems=4;
+let shoeSize="M";
+let shoeBrand="Nike";
+let isDiscountApplicable= remainingItems < 5 && shoeSize==="M" && (shoeBrand==="Nike" || shoeBrand==="Adidas");
+console.log("Is the discount applicable?",isDiscountApplicable);
+
+
+console.log("A2.4_CW");
+console.log("---- ---- ----");
+console.log("Exercise 1");
+console.log("---- ---- ----");
+console.log("1.1");
+let originalPrice=1000;
+let discountPercentage=25;
+let discountAmount= (originalPrice*discountPercentage)/100;
+let finalPrice=originalPrice-discountAmount;
+console.log("Orginal Price: ",originalPrice);
+console.log("Discount Percentage: ",discountPercentage);
+console.log("Dicount Amount: ",discountAmount);
+console.log("Final Price: ",finalPrice);
+
+console.log("---- ---- ----");
+console.log("1.2");
+
+let itemOne="T-shirt";
+let itemTwo="Jeans";
+let itemThree="Shoes";
+let itemOnePrice=500;
+let itemTwoPrice=1500;
+let itemThreePrice=2000;
+let itemOneQuantity=2;
+let itemTwoQuantity=1;
+let itemThreeQuantity=1;
+
+let totalItemOnePrice=itemOnePrice*itemOneQuantity;
+let totalItemTwoPrice=itemTwoPrice*itemTwoQuantity;
+let totalItemThreePrice = itemThreePrice*itemThreeQuantity;
+
+let totalCartPrice= totalItemOnePrice + totalItemTwoPrice + totalItemThreePrice;
+
+console.log("Item One: ", itemOne);
+console.log("Item Two: ", itemTwo);
+console.log("Item Three: ", itemThree);
+console.log("---- ---- ----");
+
+console.log("Price of",itemOne,"x",itemOneQuantity,":", totalItemOnePrice);
+console.log("Price of",itemTwo,"x",itemTwoQuantity,":", totalItemTwoPrice);
+console.log("Price of",itemThree,"x",itemThreeQuantity,":", totalItemThreePrice);
+
+console.log("---- ---- ----");
+console.log("Total Cart Price:", total
